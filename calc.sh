@@ -15,8 +15,8 @@ read ch
 case $ch in
 1)sum=`expr $n1 + $n2`
    echo "Sum ="$sum;;
-
-2)sum=`expr $n1 + $n2`
+# bug01 fixing the subtration issue
+2)sum=`expr $n1 - $n2`
    echo "Sub = "$sum;;
 
 3)sum=`expr $n1 \* $n2`
