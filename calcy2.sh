@@ -22,7 +22,7 @@ case $ch in
 3)sum=`expr $n1 \* $n2`
    echo "Mul = "$sum;;
 
-4)sum=`expr $n1 - $n2`
+4)sum=`expr $n1 / $n2`
     echo "Div = "$sum;;
 
 *)echo "Invalid choice";;
